@@ -3,13 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
 <body>
-    
-    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="">Chorsu dollar, yevro pokupaem</h1>
+                <form class="form position-relative d-flex align-items-center justify-content-between w-50">
+                    <div>
+                        <input class="form__input form-control" type="number" name="valyuta" required placeholder="Summa">
+                    </div>
+                    <div>
+                        <select class="form__select form-select">
+                            <option value="usd">USD</option>
+                            <option value="euro">Yevro</option>
+                            <option value="yuan">Yuan</option>
+                            <option value="rubl">Rubl</option>
+                            <option value="dinar">Dinor</option>
+                            <option value="funt">Funt</option>
+                            <option value="john_wick_gold">John Wick tillasi</option>
+                        </select>
+                    </div>
+                    <div class="form__result">so'm</div>
+                    <button class="btn position-absolute top-100 p-2 border text-success" type="submit">O'girish</button>
+                </form>
+            </div>
+        </section>
+    </main>
     <script src="./js/app.js"></script>
 </body>
 </html>
